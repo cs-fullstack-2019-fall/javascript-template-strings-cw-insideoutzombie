@@ -110,10 +110,14 @@ console.log(`Congratulations ${contestant} your score is ${score}`);
 
 
 for(let x = 0; x < parents.length; x++) {
+
   let elName = parents[x].name;
   console.log(elName);
-}
 
+    for(let i = 0; i < parents[x].children.length; x++) {
+    console.log(parents[x].children[i]);
+  }
+}
 // parent.foreach(function(element){
 //   let p1 = (`${parent.name}`);
 // });
