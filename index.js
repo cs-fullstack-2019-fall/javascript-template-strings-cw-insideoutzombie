@@ -77,23 +77,61 @@ console.log(`Congratulations ${contestant} your score is ${score}`);
 // ```
 // Use the Object literal data below.
 // You will need to iteratethrough each object and print it out with a template.
-let parents =
-   [
-       {
-           name: "Mr. Bill",
-           children: ["Sluggo", "Spot", "Linda"]
-       },
-       {
-           name: "Nancy R.",
-           children: ["Stan"]
-       },
-       {
-           name: "J. Page",
-           children: ["Mick", "Robert", "John", "Kenny"]
-       },
-       {
-           name: "Randolh H.",
-           children: ["Biffy", "Carl Jr."]
-       }
-   ];
-console.log(`${parents[3].children}`);
+
+// foreach (index) {
+// var i;
+// for (i = 0; i < parents.length; i++) {
+//   text += parents[i] + "<br>";
+
+  let parents =
+     [
+         {
+             name: "Mr. Bill",
+             children: ["Sluggo", "Spot", "Linda"]
+         },
+         {
+             name: "Nancy R.",
+             children: ["Stan"]
+         },
+         {
+             name: "J. Page",
+             children: ["Mick", "Robert", "John", "Kenny"]
+         },
+         {
+             name: "Randolh H.",
+             children: ["Biffy", "Carl Jr."]
+         }
+     ];
+// forLoop method
+// for(let idx in parents) {
+//   let elName = parents[idx].name;
+//   console.log(elName);
+// }
+
+
+for(let x = 0; x < parents.length; x++) {
+  let elName = parents[x].name;
+  console.log(elName);
+}
+
+// parent.foreach(function(element){
+//   let p1 = (`${parent.name}`);
+// });
+
+// function printPeople(name, children) {
+//   let peopleString = `${name} ${children}!`;
+//
+//   console.log(`Welcome to the site${person.first_name} ${person.last_name}`);
+//
+// }
+
+  // let adult = {
+  //   person[1]name;
+  //  }
+
+// console.log(`${parents[1].name}`);
+// console.log(adult);
+
+// ### Challenge
+// Put all the printing logic in a separate function and
+// call the function for each Parent so they and their Children print.
