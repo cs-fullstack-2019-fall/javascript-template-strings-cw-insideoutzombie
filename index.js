@@ -22,7 +22,7 @@
 // ```
 
 var mts = { my_name: "David", my_id: 1456, my_address: "Memphis TN" }
-
+// you did not assign these vales to a variable 
 console.log(
 `My name is ${mts.my_name}.
 My id is ${mts.my_id}.
